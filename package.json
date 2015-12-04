@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack-prod.config.js",
     "dev": "webpack-dev-server --hot --devtool source-map --progress --colors --content-base dist"
   },
   "author": "",
@@ -17,6 +17,7 @@
     "eslint": "^1.10.3",
     "eslint-loader": "^1.1.1",
     "eslint-plugin-react": "^3.11.2",
+    "extract-text-webpack-plugin": "^0.9.1",
     "flux": "^2.1.1",
     "history": "^1.13.1",
     "react": "^0.14.3",
